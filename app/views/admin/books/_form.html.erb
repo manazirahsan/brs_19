@@ -20,10 +20,11 @@
       <div class="form-group">
         <%= f.label t(:book_form_book_category), class: "control-label" %>
         <%= f.collection_select :category_id, Category.all, :id, :name,
-          prompt: "--Select A Category--", class: "form-control" %>
+          prompt: t(:book_form_prompt_for_category), class: "form-control" %>
       </div>
-      <div class="col-md-2 col-md-offset-5">
+      <div class="col-md-4 col-md-offset-4">
         <%= f.submit t(:book_form_submit_button), class: "btn btn-primary" %>
+        <%= link_to t(:book_form_cancel_button), admin_books_path, class: "btn btn-default" %>
       </div>
     <% end %>
   </div>

@@ -34,7 +34,8 @@ gem "sdoc", "~> 0.4.0", group: :doc
 # gem "capistrano-rails", group: :development
 
 gem "nested_form"
-
+gem "will_paginate"
+gem "will_paginate-bootstrap"
 gem "carrierwave"
 gem "rmagick"
 gem "faker", "~> 1.6", ">= 1.6.1"
