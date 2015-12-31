@@ -48,3 +48,6 @@ en:
   book_form_submit_button: "Submit"
   books_new_failure_message: "Book creation is failed"
   books_new_success_message: "Book creation is successful"
+  books_edit_add_existing_book: "Edit Book"
+  books_edit_success_message: "Book modification is successful"
+  books_edit_failure_message: "Book modification is failed"
